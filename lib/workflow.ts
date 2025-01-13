@@ -26,7 +26,7 @@ export const sendEmail = async ({
       provider: resend({ token: config.env.resendToken }),
     },
     body: {
-      from: "JS Mastery <contact@adrianjsmastery.com>",
+      from: "JS Mastery <university-library-sepia.vercel.app>",
       to: [email],
       subject,
       html: message,
